@@ -1,10 +1,12 @@
 import React from 'react';
+import Routes from './routes';
+import './style.css';
 
 function App(props) {
+
   return (
     <>
-      <h1>{props.title} {props.name}</h1>
-      <input name="usuario" id="usuario" className="usuarioinput" placeholder="Usuário" />
+      <Routes />
     </>
   );
 }
